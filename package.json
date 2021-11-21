@@ -1,7 +1,6 @@
 {
   "name": "good-readme-generator",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,6 @@
   "homepage": "https://github.com/veidul/Good-README-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.0"
-  }
+  },
+  "description": ""
 }

@@ -8,15 +8,15 @@ const renderLicense = (license) => {
             return `![License](https://img.shields.io/badge/License-MIT-orange.svg) <br> [MIT](https://opensource.org/licenses/MIT)`;
         case 'GPLv2':
             return `[License](https://img.shields.io/badge/License-GPLv2-orange.svg) <br> [GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)`;
-            case 'Apache':
+        case 'Apache':
             return `[License](https://img.shields.io/badge/License-Apache-orange.svg) <br> [Apache](https://www.apache.org/licenses/LICENSE-2.0)]`;
-            case 'Unlicense':
+        case 'Unlicense':
             return `[License](https://img.shields.io/badge/License-Unlicense-orange.svg) <br> [unlicense](https://unlicense.org/)`;
-            case 'BSD_3':
+        case 'BSD_3':
             return `[License](https://img.shields.io/badge/License-BSD_3-orange.svg) <br> [BSD_3](https://opensource.org/licenses/BSD-3-Clause)`;
-            case 'BSD_4':
+        case 'BSD_4':
             return `[License](https://img.shields.io/badge/License-BSD_4-orange.svg) <br> [BSD_4](https://spdx.org/licenses/BSD-4-Clause.html)`;
-            case 'unavailable':
+        case 'unavailable':
             return `No license available for this project.`;
 
     }
@@ -131,7 +131,7 @@ const promptUser = () => {
             name: 'email',
             message: 'Please enter your email address where users can contact you with anyone questions.'
         },
-        
+
 
 
     ])
